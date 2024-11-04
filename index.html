@@ -4,51 +4,62 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-
-    <div class="container">
-            
-        <div class="box1">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\download.jpg"></image>
-        </div>
-
-        <div class="box2">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\download.png"></image>
-        </div>
-
-        <div class="box3">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images (1).jpg"></image>
-        </div>
-
-        <div class="box4">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images (2).jpg"></image>
-        </div>
-
-        <div class="box5">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images (3).jpg"></image>
-        </div>
-
-        <div class="box6">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images (4).jpg"></image>
-        </div>
-
-        <div class="box7">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images.jpg"></image>
-        </div>
-
-        <div class="box8">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images.png"></image>
-        </div>
-
-        <div class="box9">
-            <image class="pic" src="c:\Users\ITUser\OneDrive\Pictures\VSCODE PICS\images (5).jpg"></image>
-        </div>
+    
+    <div class="radios" onchange="clicked1()">
+        <input type="radio" name="test" value="1">Happy</radio><br>
+        <input type="radio" name="test" value="2">Sad</radio><br>
+        <input type="radio" name="test" value="3">Bored</radio><br>
+        <input type="radio" name="test" value="3">Mad</radio><br>
+        <input type="radio" name="test" value="3">Anxious</radio><br>
+    </div>
+    
+    
+    
+    <br>
+    <div class= "sports">
+        <select name="sports" id="sports" onchange="selectChange()">
+            <option value="I play Tennis!">Tennis</option>
+            <option value="I play Soccer!">Soccer</option>
+            <option value="I play Basktball!">Basketball</option>
+            <option value="I play Football!">Football</option>
+            <option value="I play Baseball!">Baseball</option>
+        </select>
 
     </div>
-
+    <div class="question">Do you like to play sports?</div>
     
-    <script src ="script.js"></script>
+    
+    <div class="checkboxes">
+        <input type="checkbox" id="id1" name="vehicle1" value="Bike">
+        <label for="vehicle1">Yes</label><br>
+
+        <input type="checkbox" id="id2" name="vehicle2" value="Car">
+        <label for="vehicle2">No   </label><br>
+
+        <input type="checkbox" id="id3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Sometimes</label><br>
+
+        <input type="checkbox" id="id3" name="vehicle4" value="Boat">
+        <label for="vehicle4">Rarely</label><br>
+
+        <input type="checkbox" id="id3" name="vehicle5" value="Boat">
+        <label for="vehicle5">Once</label><br>
+    </div>
+
+    <div class="button">
+        <button id="mybutton" onclick="clickme()">Result</button>
+    </div>
+
+
+    <div id="div1" class="div1">x</div><br>
+    <div id="div2" class="div2">x</div><br>
+    <div id="div3" class="div3">x</div><br>
+
+    <div id="div4" class="div4">?</div><br>
+        <div id="div5" class="div5">What sport do you play?</div>
+    
+    
+        <script src ="script.js"></script>
 </body>
 
 </html>
-
