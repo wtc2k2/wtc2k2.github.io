@@ -1,65 +1,23 @@
 <!DOCTYPE html>
+
 <html>
 <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
-    <div class="radios" onchange="clicked1()">
-        <input type="radio" name="test" value="1">Happy</radio><br>
-        <input type="radio" name="test" value="2">Sad</radio><br>
-        <input type="radio" name="test" value="3">Bored</radio><br>
-        <input type="radio" name="test" value="3">Mad</radio><br>
-        <input type="radio" name="test" value="3">Anxious</radio><br>
-    </div>
-    
-    
-    
-    <br>
-    <div class= "sports">
-        <select name="sports" id="sports" onchange="selectChange()">
-            <option value="I play Tennis!">Tennis</option>
-            <option value="I play Soccer!">Soccer</option>
-            <option value="I play Basktball!">Basketball</option>
-            <option value="I play Football!">Football</option>
-            <option value="I play Baseball!">Baseball</option>
-        </select>
 
-    </div>
-    <div class="question">Do you like to play sports?</div>
-    
-    
-    <div class="checkboxes">
-        <input type="checkbox" id="id1" name="vehicle1" value="Bike">
-        <label for="vehicle1">Yes</label><br>
+<div class="parent">
+    <div id ="div1" class="blank" onclick="select('1')"></div>
+    <div id ="div2" class="blank" onclick="select('2')"></div>
+    <div id ="div3" class="blank" onclick="select('3')"></div>
+    <div id ="div4" class="blank" onclick="select('4')"></div>
+    <div id ="div5" class="blank" onclick="select('5')"></div>
+    <div id ="div6" class="blank" onclick="select('6')"></div>
+    <div id ="div7" class="blank" onclick="select('7')"></div>
+    <div id ="div8" class="blank" onclick="select('8')"></div>
+    <div id ="div9" class="blank" onclick="select('9')"></div>
+</div>
 
-        <input type="checkbox" id="id2" name="vehicle2" value="Car">
-        <label for="vehicle2">No   </label><br>
-
-        <input type="checkbox" id="id3" name="vehicle3" value="Boat">
-        <label for="vehicle3">Sometimes</label><br>
-
-        <input type="checkbox" id="id3" name="vehicle4" value="Boat">
-        <label for="vehicle4">Rarely</label><br>
-
-        <input type="checkbox" id="id3" name="vehicle5" value="Boat">
-        <label for="vehicle5">Once</label><br>
-    </div>
-
-    <div class="button">
-        <button id="mybutton" onclick="clickme()">Result</button>
-    </div>
-
-
-    <div id="div1" class="div1">x</div><br>
-    <div id="div2" class="div2">x</div><br>
-    <div id="div3" class="div3">x</div><br>
-
-    <div id="div4" class="div4">?</div><br>
-        <div id="div5" class="div5">What sport do you play?</div>
-    
-    
-        <script src ="script.js"></script>
 </body>
-
+<script src ="script2.js"></script>
 </html>
