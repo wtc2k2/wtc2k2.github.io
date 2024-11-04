@@ -1,71 +1,37 @@
 html {
     height: 100%;
     width: 100%;
-
   }
   body {
     height: 100%;
     width: 100%;
     margin: 0;
-    position:absolute;
-    top: 50px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: auto;
-    width: 150px;
-    background-color: tan;
+    background-color: rgb(48,69,41);
     }
 
+.parent {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    width: 335px;
+    height: 335px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    bottom: 50%;
+    margin-left: 260px;
+    margin-right: 335px;
 
-.div1 {
-  margin-left: 120px;
-  font-size: 25px;
 }
-.div2 {
-  margin-left: 120px;
-  font-size: 25px;
+.blank {
+    background-color: rgb(178, 210, 136);
+    border: solid 5px;
+    transition: .2s;
 }
-.div3 {
-  margin-left: 120px;
-  font-size: 25px;
-}
-.div4 {
-  margin-left: 120px;
-  font-size: 25px;
-}
-.div5 {
-  left: 20px;
-  font-size: 25px;
-}
-
-.radios {
-  display: flex;
-  flex-direction: row;
-  font-size: 25px;
+.blank:hover {
+    background-color: rgb(83,104,120);
+    border-radius: 100px;
+    scale: 1.5 1.5;
 }
 
-.sports {
-  margin-left: 100px;
-}
-
-.question {
-  display: flex;
-  margin: 50px;
-  width: 100%;
-  margin-top: 25px;
-  font-size: 25px;
-}
-
-.checkboxes {
-  display: flex;
-  flex-direction: row;
-  font-size: 25px;
-}
-
-.button {
-  display: flex;
-  margin: 100px;
-  width: 100%;
-  margin-top: 25px;
-}
