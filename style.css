@@ -1,0 +1,68 @@
+.container {
+  /* border: solid 1px green; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .box1 {
+    height: 225px;
+    width: 225px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box2 {
+    height: 225px;
+    width: 225x;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box3 {
+    height: 183px;
+    width: 275px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box4 {
+    height: 183px;
+    width: 275px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box5 {
+    height: 183px;
+    width: 275px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box6 {
+    height: 173px;
+    width: 291px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box7 {
+    height: 183px;
+    width: 275px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box8 {
+    height: 217px;
+    width: 235px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
+
+  .box9 {
+    height: 225px;
+    width: 225px;
+    /* border: solid 2px; */
+    margin: 5px;
+  }
