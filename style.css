@@ -1,68 +1,71 @@
-.container {
-  /* border: solid 1px green; */
-  display: flex;
-  flex-wrap: wrap;
+html {
+    height: 100%;
+    width: 100%;
+
+  }
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position:absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    width: 150px;
+    background-color: tan;
+    }
+
+
+.div1 {
+  margin-left: 120px;
+  font-size: 25px;
+}
+.div2 {
+  margin-left: 120px;
+  font-size: 25px;
+}
+.div3 {
+  margin-left: 120px;
+  font-size: 25px;
+}
+.div4 {
+  margin-left: 120px;
+  font-size: 25px;
+}
+.div5 {
+  left: 20px;
+  font-size: 25px;
 }
 
-  .box1 {
-    height: 225px;
-    width: 225px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.radios {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+}
 
-  .box2 {
-    height: 225px;
-    width: 225x;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.sports {
+  margin-left: 100px;
+}
 
-  .box3 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.question {
+  display: flex;
+  margin: 50px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: 25px;
+}
 
-  .box4 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+}
 
-  .box5 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box6 {
-    height: 173px;
-    width: 291px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box7 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box8 {
-    height: 217px;
-    width: 235px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box9 {
-    height: 225px;
-    width: 225px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.button {
+  display: flex;
+  margin: 100px;
+  width: 100%;
+  margin-top: 25px;
+}
