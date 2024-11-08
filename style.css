@@ -1,68 +1,75 @@
-.container {
-  /* border: solid 1px green; */
-  display: flex;
-  flex-wrap: wrap;
+html {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #E1E9E0, #D6D9EB);
 }
 
-  .box1 {
-    height: 225px;
-    width: 225px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.header {
+  background-color: white;
+  height: 30px;
+  width: 250px;
+  border: solid black 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 4px 4px 6px black;
+  border-radius: 7px;
+}
 
-  .box2 {
-    height: 225px;
-    width: 225x;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
 
-  .box3 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.icon {
+position: absolute;
+top: 30px;
+right: 30px;
+transform: scale(3,3);
+color: #582790;
+}
+.material-symbols-outlined:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.2);
+}
 
-  .box4 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .box5 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.circle {
+  width: 400px;
+  height: 400px;
+  margin-top: 150px;
+  left: 70px;
+  border-radius: 50%;
+  background-color: #5A97A2;
+  max-width: 400px;
+}
+.circle:hover {
+  transition: 1s;
+  border-radius: 0%;
+  background-color: #AA64DA;
+}
 
-  .box6 {
-    height: 173px;
-    width: 291px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box7 {
-    height: 183px;
-    width: 275px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box8 {
-    height: 217px;
-    width: 235px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
-
-  .box9 {
-    height: 225px;
-    width: 225px;
-    /* border: solid 2px; */
-    margin: 5px;
-  }
+.square {
+  width: 400px;
+  height: 400px;
+  margin-top: 150px;
+  right: 80px;
+  background-color: #5A97A2;
+  max-width: 400px;
+}
+.square:hover {
+  transition: 1s;
+  border-radius: 50%;
+  background-color: #AA64DA;
+}
