@@ -131,3 +131,270 @@ body {
     width: 2550px;
     height: auto;
 }
+
+.hideit {
+    display: none;
+}
+.showit {
+    display: block;
+}
+
+.about2 {
+    height: 1000px;
+    width: 100%;
+}
+.aboutbackground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.aboutcolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.aboutlogo1 {
+    width: 480px;
+    height: 950px;
+    border-radius: 2%;
+}
+.aboutquote2 {
+    font-size: 20px;
+    width: 480px;
+    height: 850px;
+    margin-top: 15px;
+    border-radius: 2%;
+    background-color: rgb(180, 180, 184);
+    padding: 10px;
+}
+.ourprocess2 {
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+}
+
+.processbackground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.processcolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.processlogo1 {
+    width: 480px;
+    height: 480px;
+    border-radius: 2%;
+}
+.processlogo2 {
+    width: 480px;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+
+.processquote1{
+    font-size: 20px;
+    width: 480px;
+    height: 260px;
+    margin-top: 20px;
+    border-radius: 2%;
+    background-color: rgb(180, 180, 184);
+    padding: 10px;
+}
+.processquote2 {
+    font-size: 20px;
+    width: 480px;
+    height: 330px;
+    margin-top: 15px;
+    border-radius: 2%;
+    background-color: rgb(180, 180, 184);
+    padding: 10px;
+}
+
+.shop2 {
+    height: 1000px;
+    width: 100%;
+}
+.shopbackground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.shopcolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.shoppicture1 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.shoppicture2 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+
+.shoppicture3 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.shoppicture4 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+
+.shopitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.buy_button {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: #895129;
+    color: white;
+}
+
+.buy_button:hover {
+    background-color: white;
+    color: #895129;
+    border: 2px solid #895129;
+    cursor: pointer;
+}
+.item_name {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.gallery2 {
+    height: 1000px;
+    width: 100%;
+}
+.gallerybackground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.gallerycolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.gallerypicture1 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.gallerypicture2 {
+    width: 350px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+
+.gallerypicture3 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+.gallerypicture4 {
+    width: 800px;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+
+.contact2 {
+    height: 1000px;
+    width: 100%;
+}
+.contactbackground {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+}
+
+.contactcolumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.contactpicture1 {
+    width: 150px;
+    height: 150x;
+    margin-top: 20px;
+}
+.contactpicture2 {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.contactpicture3 {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+}
+.contact_url {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
