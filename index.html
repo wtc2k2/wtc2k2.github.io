@@ -8,28 +8,132 @@
     
     <div class="header">
         <div class="container_header">
-            <image class="logo" src="shortlogo_processed.png"></image>
-            <button class="about">About</button>
-            <button class="process">Our Process</button>
-            <button class="shop">Shop</button>
-            <button class="gallery">Gallery</button>
-            <button class="contact">Contact</button>
+            <image onclick="showthediv('div1')" class="logo" src="shortlogo_processed.png"></image>
+            <button onclick="showthediv('div2')" class="about">About</button>
+            <button onclick="showthediv('div3')" class="process">Our Process</button>
+            <button onclick="showthediv('div4')" class="shop">Shop</button>
+            <button onclick="showthediv('div5')" class="gallery">Gallery</button>
+            <button onclick="showthediv('div6')" class="contact">Contact</button>
         </div>
     </div>
-        
-    <div class="container_body">
+
+    <div id='div1' class="showit">
+        <div class="MainPage">
+        <div class="container_body">
 
         <div class="bread_pic">
                 <image class="bread" src="landscape_bread.jpeg"></image>
                 <div class="quote_container">
                     <div class="quote">
-                        Artisanal sourdough, <br> LOVINGLY <br> crafted in <br> my home kitchen.
-                        <button class="quote_button">Start Shopping!</button>
+                        Artisanal sourdough, <br> lovingly <br> crafted in <br> my home kitchen.
+                        <button onclick="showthediv('div4')" class="quote_button">Start Shopping!</button>
                     </div>
                     
                 </div>
         </div>
+        </div>
+        </div>
     </div>
+
+    <div id='div2' class="hideit">
+        <div class="about2">
+            <div class="aboutbackground">
+                <div class="aboutcolumns">
+                    <image class="aboutlogo1" src="mompic.PNG"></image>
+                </div>
+                
+                <div class="aboutcolumns">
+                    <div class="aboutquote2">
+                        About Me -<br><br>Welcome to my online sourdough bakery, where the art of traditional bread-making meets the convenience of modern shopping. My name is Annie, and I am passionate about crafting homemade sourdough bread that brings a taste of rustic simplicity to your table.<br><br>My Story -<br><br>It all started in my kitchen where I discovered the joy of creating sourdough bread from scratch. As a mother of four and with a lifelong love for culinary arts, I turned my passion into a small business, sharing the wholesome goodness of sourdough with others.<br><br>My Bread -<br><br>Every loaf of sourdough bread is crafted using natural fermentation techniques, blending flour, water, and salt with a touch of patience and a generous amount of care. The outcome is a bread with a crispy, golden crust and a soft, flavorful interior, ideal for a variety of uses, from sandwiches to toast.<br><br>My Commitment -<br><br>Quality and tradition are at the heart of what I do. I use only the finest ingredients, ensuring that each loaf is as nutritious as it is delicious. My bread is free from preservatives and additives, providing you with a truly authentic sourdough experience. Thank you for visiting my store. I hope you enjoy my bread as much as I enjoy making it.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='div3' class="hideit">
+        <div class="ourprocess2">
+            <div class="processbackground">
+                <div class="processcolumns">
+                    <image class="processlogo1" src="rawdough1.jpeg"></image>
+                    <div class="processquote1">
+                        First, you wake up your sourdough starter—it's like feeding a pet. Give it some flour and water, and let it get all bubbly and alive. This takes a few hours, so be patient.<br>Then, you mix your dough. Just some flour, water, a pinch of salt, and a bit of that lively starter. Stir it all together until it comes together into a shaggy mass. Let it sit for a bit, like it's taking a nap.<br>Now, you start folding. Over the next few hours, every so often, you stretch the dough and fold it over itself. This is where the magic begins—the dough starts feeling smoother and springier, like it's waking up
+                    </div>
+                </div>
+                
+                <div class="processcolumns">
+                    <div class="processquote2">
+                        After that, it’s shaping time. You gently coax the dough into a nice round or oval shape and tuck it into a cozy proofing basket. Let it rest and rise, either for a couple of hours or overnight in the fridge if you want to take it slow.<br>When you're ready to bake, the oven gets super hot—like, almost volcanic. You preheat a Dutch oven to create a steamy environment, then carefully plop the dough in, score the top with a blade to give it character, and let it bake. First with the lid on, then off, so it gets that gorgeous golden crust.<br>Finally, you pull it out, and there it is—a beautiful sourdough loaf. The hardest part? Letting it cool before you tear into it. But when you do, it’s all worth it—the crackling crust, the tangy, chewy interior. It’s pure joy.
+                    </div>
+                    <image class="processlogo2" src="rawdough2.jpeg"></image>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='div4' class="hideit">
+        <div class="shop2">
+            <div class="shopbackground">
+                <div class="shopcolumns">
+                    <div class="shopitem">
+                        <div class="item_name">Sourdough Loaf</div>
+                        <image class="shoppicture1" src="sandoloaf.jpg"></image>
+                        <button class="buy_button">Buy</button>
+                    </div>
+                    <div class="shopitem">
+                        <div class="item_name">Pumpkin Spice Loaf</div>
+                        <image class="shoppicture2" src="pumpkinbig.jpg"></image>
+                        <button class="buy_button">Buy</button>
+                    </div>
+                </div>
+                
+                <div class="shopcolumns">
+                    <div class="shopitem">
+                        <div class="item_name">Sourdough Dinner Rolls</div>
+                        <image class="shoppicture3" src="trayrolls.jpg"></image>
+                        <button class="buy_button">Buy</button>
+                    </div>
+                    <div class="shopitem">
+                        <div class="item_name">Pumkin Spice Mini Loaf</div>
+                        <image class="shoppicture4" src="pumpkinsmall4.jpg"></image>
+                        <button class="buy_button">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id='div5' class="hideit">
+    <div class="gallery2">
+        <div class="gallerybackground">
+            <div class="gallerycolumns">
+                <image class="gallerypicture1" src="rolls1.jpg"></image>
+                <image class="gallerypicture2" src="smallloaf2.jpg"></image>
+            </div>
+            <div class="gallerycolumns">
+                <image class="gallerypicture3" src="fakeloaf3.jpg"></image>
+                <image class="gallerypicture4" src="fakeloaf4.jpg"></image>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id='div6' class="hideit">
+    <div class="contact2">
+        <div class="contactbackground">
+            <div class="contactcolumns">
+                <image class="contactpicture1" src="facebooklogo.jpg"></image>
+                <div class="contact_url">https://www.facebook.com/annie.t.combs</div>
+                <image class="contactpicture2" src="maillogo.png"></image>
+                <div class="contact_url">annie@familiesforever.net</div>
+                <image class="contactpicture3" src="instagramlogo.jpg"></image>
+                <div class="contact_url">https://www.instagram.com/addismom03/</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
    
     <script src ="script.js"></script>
 </body>
